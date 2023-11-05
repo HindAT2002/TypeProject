@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+/* Style pour le titre du formulaire */
+.form div.Type {
+  
+  justify-content: center;
+  font-size: 30px; /* Ajustez la taille du titre selon vos préférences */
+  font-weight: bold;
+  margin-bottom: 10px; /* Espacement en bas du titre */
+  color: #333; 
+  color: rgb(2, 2, 2);
+  margin-left: 10px;/* Couleur du texte du titre */
+}
+
+.form select {
+  width: 100%; /* Utilisez 100% de la largeur du conteneur parent */
+  padding: 12px; /* Augmente la taille du texte et de la zone de sélection */
+  font-size: 16px; /* Augmente la taille du texte dans la liste déroulante */
+  border: 2px solid #007bff; /* Ajoute une bordure */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: #fff; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+}
+
+/* Style pour les options de sélection */
+.form select option {
+  font-size: 20px; /* Augmente la taille du texte des options */
+  background-color: #fff; /* Couleur de fond des options */
+  color: #333; /* Couleur du texte des options */
+}
+
+/* Style pour le texte de l'option sélectionnée */
+.form select option:checked {
+  font-weight: bold; /* Met en gras le texte de l'option sélectionnée */
+}
+.form {
+  
+  background-color:  rgb(255, 253, 253,0.2);/* Couleur de fond du formulaire */
+  padding: 20px;
+  border: 1px solid rgb(51, 51, 51,0.2)d3d;
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 7px 6px rgb(17, 12, 15,0.8); /* Ombre */
+  width: 550px; /* Largeur du formulaire */
+
+}
+
+.form label {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+.form .custom-label {
+  font-size: 20px;
+  color: rgb(110, 24, 3);
+}
+
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #474141;
+  border-radius: 12px;
+}
+
+.form button {
+  background-color: rgb(110, 24, 3,0.8); /* Couleur du bouton */
+  color: #ebe5e5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 22px; 
+}
+
+
+.form button[type="button"] {
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 10px 15px;
+  font-size: 24px; 
+  margin-left: 330px; 
+  cursor: pointer;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre */
+}
+
+
+.form select {
+  width: 150px; /* Largeur du champ de sélection */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: 5px; /* Espacement en haut du champ de sélection */
+}
+/* Style pour les caractéristiques */
+.form input[type="text"] {
+  width: calc(75% - 40px);
+  font-size: 20px; /* Largeur ajustée pour les caractéristiques */
+}
+
+
+.form input[type="number"] {
+  width: calc(75% - 40px);
+  font-size: 20px; /* Largeur ajustée pour les caractéristiques */
+}
+.form input[type="date"] {
+  width: calc(75% - 40px);
+  font-size: 20px; /* Largeur ajustée pour les caractéristiques */
+}
+.form input.input{
+  width: calc(100% - 40px);
+  font-size: 20px; /* Largeur ajustée pour les caractéristiques */
+}
+.form textarea {
+  width: calc(100% - 40px); 
+  font-size: 20px;/* Largeur ajustée pour les caractéristiques */
+}
+.form option.addType{
+  font-size: 20px;
+  background-color: rgb(247, 0, 255,0.8);
+  text-align: center;
+  color:rgb(181, 6, 250)
+}
+
+/* Style pour le formulaire soumis (à personnaliser) */
+.form-submitted {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
